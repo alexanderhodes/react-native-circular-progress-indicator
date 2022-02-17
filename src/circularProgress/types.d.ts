@@ -123,7 +123,7 @@ export interface CircularProgressProps {
     subtitleFontSize?: number,
 }
 declare const CircularProgress: React.FC<CircularProgressProps>;
-export declare const dynamicStyles: (props: any) => {
+export declare const dynamicStyles: (props: CircularProgressProps) => {
     fromProps: {
         fontSize: any;
         color: any;
